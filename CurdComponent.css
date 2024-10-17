@@ -1,0 +1,88 @@
+/* Container for the CRUD app */
+ div {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color:rgb(0, 255, 251);
+    border-radius: 8px; 
+    /* box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); */
+  
+  
+   h1, h2 {
+    text-align: top;
+    align-items: top;
+    color: #333;
+  } 
+  
+   /* Form styling  */
+    form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"] {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 80%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #16bd5e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #535455;
+  }  
+  
+  /* User list styling */
+   ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  li span {
+    flex-grow: 1;
+  }
+   
+  /* Edit and Delete buttons */
+   button + button {
+    margin-left: 10px;
+  }
+  
+  button.edit-btn {
+    background-color: #28a745;
+  }
+  
+  button.edit-btn:hover {
+    background-color: #218838;
+  }
+  
+  button.delete-btn {
+    background-color: #dc3545;
+  }
+  
+  button.delete-btn:hover {
+    background-color: #c82333;
+  }
+}
